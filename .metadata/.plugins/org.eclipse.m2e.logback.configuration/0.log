@@ -1,0 +1,16 @@
+2021-02-16 12:53:32,848 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-02-16 12:53:53,625 [Worker-7: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.fullstack.springboot.maven.crud:spring-boot-fullstack-crud-full-stack-with-maven:0.0.1-SNAPSHOT @ /Users/owen/Desktop/CS506/example-react-java-and-h2/spring-boot-fullstack-crud-full-stack-with-maven/pom.xml.
+2021-02-16 12:53:54,497 [Worker-7: Importing Maven projects] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine source level, using default 1.5
+2021-02-16 12:53:54,499 [Worker-7: Importing Maven projects] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine target level, using default 1.5
+2021-02-16 12:53:54,995 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-fullstack-crud-full-stack-with-maven/src/main/java
+2021-02-16 12:53:54,995 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-fullstack-crud-full-stack-with-maven/src/main/resources
+2021-02-16 12:53:54,996 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-fullstack-crud-full-stack-with-maven/src/main/resources
+2021-02-16 12:53:54,996 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-fullstack-crud-full-stack-with-maven/src/test/java
+2021-02-16 12:53:55,144 [Worker-7: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2021-02-16 12:53:58,011 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-16 12:53:58,013 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-16 12:53:58,023 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-16 12:53:58,045 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-16 12:53:58,049 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-16 12:53:58,049 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-16 12:53:58,050 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/owen/Desktop/CS506/example-react-java-and-h2/spring-boot-fullstack-crud-full-stack-with-maven/src/test/resources

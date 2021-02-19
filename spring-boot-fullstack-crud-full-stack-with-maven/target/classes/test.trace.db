@@ -136,3 +136,12 @@ INSERT INTO course VALUES(8, null, owennnnn) [42122-200]
 2021-02-16 11:01:21 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COURSES" not found; SQL statement:
 INSERT INTO courses (username, description) values('owolman', 'Testing Adding a record') [42102-200]
+2021-02-16 11:16:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE COURSE ([*]DESCRIPTION) VALUES('test course 3 edited') WHERE ID = 3"; expected "., AS, SET"; SQL statement:
+UPDATE course (description) values('test course 3 edited') WHERE id = 3 [42001-200]
+2021-02-16 11:47:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(50)": "'Deploy Spring Boot Microservices to Cloud with Docker and Kubernetes!!!!!!!' (75)"; SQL statement:
+INSERT INTO course (username, description) values('owolman', 'Deploy Spring Boot Microservices to Cloud with Docker and Kubernetes!!!!!!!') [22001-200]
+2021-02-16 11:48:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION VARCHAR(50)": "'Deploy Spring Boot Microservices to Cloud with Docker and Kubernetes!!!!!!!' (75)"; SQL statement:
+INSERT INTO course (username, description) values('owolman', 'Deploy Spring Boot Microservices to Cloud with Docker and Kubernetes!!!!!!!') [22001-200]
